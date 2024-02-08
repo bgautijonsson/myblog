@@ -3,10 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "myblog"
+  title: "Binni's Blog!"
   navbar:
-    right:
+    left:
       - about.qmd
+      - text: "Blog"
+        file: index.qmd
+    right:
       - icon: github
         href: https://github.com/
       - icon: twitter
@@ -15,6 +18,4 @@ format:
   html:
     theme: cosmo
     css: styles.css
-
-editor: visual
 

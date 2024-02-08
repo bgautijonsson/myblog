@@ -1,0 +1,29 @@
+---
+title: "A blog about my workshop in Exeter!"
+author: "Brynjólfur Gauti Guðrúnar Jónsson"
+date: "2024-02-08"
+categories: [news]
+image: preview_image.png
+---
+
+I did a workshop. Nice!
+
+```{r}
+plot(mpg ~ wt, data = mtcars)
+```
+
+```{r}
+library(ggplot2)
+
+p <- ggplot(mtcars) +
+    geom_point(aes(x = wt, y = mpg))
+
+p
+
+ggsave(
+    plot = p,
+    filename = "preview_image.png",
+    width = 8, height = 0.621 * 8
+)
+```
+

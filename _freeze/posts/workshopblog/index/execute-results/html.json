@@ -1,0 +1,17 @@
+{
+  "hash": "2b9788bae6b03a5011ecf50e6a10e14a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"A blog about my workshop in Exeter!\"\nauthor: \"Brynjólfur Gauti Guðrúnar Jónsson\"\ndate: \"2024-02-08\"\ncategories: [news]\n---\n\n\nI did a workshop. Nice!\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(mpg ~ wt, data = mtcars)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
