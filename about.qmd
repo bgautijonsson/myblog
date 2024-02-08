@@ -1,8 +1,9 @@
 ---
 title: "About"
-image: profile.jpg
+image: images/radgjof.png
 about:
-  template: jolla
+  id: aboutme
+  template: trestles
   links:
     - icon: twitter
       text: Twitter
@@ -13,7 +14,21 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-
 ---
 
-About this blog
+*This text is before the aboutme*
+
+::: {#aboutme}
+
+Hi, I'm a PhD student at University of Iceland. I love statistics!
+
+## Education
+
+**University of Iceland** | Reykjavík, Iceland
+
+Msc in Statistics 2018 - 2020
+
+:::
+
+
+*This text is after the aboutme*

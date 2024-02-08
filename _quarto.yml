@@ -16,6 +16,6 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, theme.scss]
     css: styles.css
 

@@ -16,7 +16,8 @@ plot(mpg ~ wt, data = mtcars)
 library(ggplot2)
 
 p <- ggplot(mtcars) +
-    geom_point(aes(x = wt, y = mpg))
+    geom_point(aes(x = wt, y = mpg, col = factor(cyl))) +
+    scale_colour_brewer(palette = "Set1")
 
 p
 
@@ -26,4 +27,3 @@ ggsave(
     width = 8, height = 0.621 * 8
 )
 ```
-
